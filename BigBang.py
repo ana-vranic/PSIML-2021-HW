@@ -44,6 +44,7 @@ def calculate_hits_particles(S, v, pos):
         Nhits.append(ni)
     return Nhits
 
+
 if __name__ == '__main__':
     N, S, T, P, pos, v = read_data()
     time = calculate_time(v, pos)
